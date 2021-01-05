@@ -1,0 +1,65 @@
+
+/* css переменные */
+:root{
+--primary-text-color:#212121 ;
+--text-color:#757575;
+--hero-title:#FFFFFF;
+
+--accent-color: #2196F3;
+
+--primary-bg-color:#FFFFFF ;
+--second-bg-color:#2F303A;
+}
+
+body{
+    background-color: var(--primary-bg-color);
+    color:var(--text-color)
+}
+
+/* сброс маркеров списка */
+.list{
+    list-style: none;
+}
+/* сброс декораций cсылок */
+a{
+    text-decoration: none;
+}
+
+.current{
+    color: var(--accent-color);
+}
+
+.primarycolor{
+    color: var(--primary-text-color);
+}
+
+
+/* header */
+.page-header a:hover,
+.page-header a:focus{
+    color: var(--accent-color);
+}
+    /* nav */
+
+    /* adress */
+
+/* main */
+
+/* hero */
+.hero{
+    background-color: var(--second-bg-color);   
+}
+
+.hero-title{
+    color: var(--hero-title);
+}
+
+.hero-button{
+    color: #FFFFFF;
+}
+    /* section */
+.section-title{
+    color: var(--primary-text-color);
+}    
+
+/* footer */
