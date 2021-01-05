@@ -19,6 +19,7 @@ body {
 .list {
   list-style: none;
 }
+
 /* сброс декораций cсылок */
 a {
   text-decoration: none;
@@ -55,25 +56,25 @@ a {
   color: #ffffff;
 }
 
-/* section */
-.section-title {
-  color: var(--primary-text-color);
-}
-
 /* footer */
 .footer {
   background-color: var(--second-bg-color);
 }
 
-.footer-address > li {
+.footer-address>li {
   color: #ffffff;
 }
 
 .footer-address a {
   color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-right-logo {
   color: #ffffff;
 }
 
 /* portfolio styles */
+.portfolio-site-nav a:hover,
+.portfolio-site-nav a:focus {
+  color: var(--accent-color);
+}
