@@ -74,7 +74,8 @@ a {
 }
 
 /* portfolio styles */
-.portfolio-site-nav a:hover,
-.portfolio-site-nav a:focus {
-  color: var(--accent-color);
-}
+.portfolio button:hover,
+.portfolio button:focus {
+  background-color: var(--accent-color);
+} 
+
