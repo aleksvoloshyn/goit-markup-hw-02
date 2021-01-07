@@ -48,6 +48,14 @@ a {
   color: var(--accent-color);
 }
 
+.page-header-logo{
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+
 /* hero */
 .hero {
   background-color: var(--second-bg-color);
