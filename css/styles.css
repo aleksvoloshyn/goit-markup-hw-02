@@ -13,6 +13,11 @@
 body {
   background-color: var(--primary-bg-color);
   color: var(--text-color);
+
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* сброс маркеров списка */
@@ -77,5 +82,4 @@ a {
 .portfolio button:hover,
 .portfolio button:focus {
   background-color: var(--accent-color);
-} 
-
+}
