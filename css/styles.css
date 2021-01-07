@@ -50,10 +50,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-h1{
-  font-weight: 900;
-}
-
 h2 {
   color: var(--primary-text-color);
 
@@ -106,7 +102,7 @@ h3 {
   background-color: var(--second-bg-color);
 }
 
-.hero-title {
+h1{
   color: var(--hero-title);
 
   font-weight: 900;
@@ -175,8 +171,6 @@ h3 {
 .filter-list button{
   background-color: var(--filter-btn-bg-color);
 
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -185,7 +179,7 @@ h3 {
 
 .filter-list button:hover,
 .filter-list button:focus{
-  color: white;
+  color:#ffffff;
 }
 
 
