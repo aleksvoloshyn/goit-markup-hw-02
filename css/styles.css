@@ -36,7 +36,7 @@ a {
   font-style: normal;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
@@ -77,7 +77,7 @@ h3 {
 .page-header a:hover,
 .page-header a:focus,
 .footer a:hover,
-.footer a:focus{
+.footer a:focus {
   color: var(--accent-color);
 }
 
@@ -93,7 +93,6 @@ h3 {
 .site-nav,
 .contacts {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -103,7 +102,7 @@ h3 {
   background-color: var(--second-bg-color);
 }
 
-h1{
+h1 {
   color: var(--hero-title);
 
   font-weight: 900;
@@ -115,7 +114,7 @@ h1{
 }
 
 .hero-button {
-  color: #ffffff;
+  color: var(--whitecolor);
   background-color: var(--accent-color);
 
   font-weight: bold;
@@ -145,17 +144,14 @@ h1{
   background-color: var(--second-bg-color);
 }
 
-.footer, 
-.footer a{
+.footer,
+.footer a {
   color: var(--whitecolor);
 }
-
 
 .footer-address a {
   color: var(--address-color)
 }
-
-
 
 /* portfolio styles */
 .portfolio button:hover,
@@ -167,7 +163,7 @@ h1{
   display: none;
 }
 
-.filter-list button{
+.filter-list button {
   background-color: var(--filter-btn-bg-color);
 
   font-weight: 500;
@@ -177,8 +173,8 @@ h1{
 }
 
 .filter-list button:hover,
-.filter-list button:focus{
-  color:#ffffff;
+.filter-list button:focus {
+  color: var(--whitecolor);
 }
 
 
