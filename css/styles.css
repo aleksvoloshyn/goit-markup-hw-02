@@ -3,8 +3,9 @@
   --primary-text-color: #212121;
   --text-color: #757575;
   --hero-title: #ffffff;
-
+  --whitecolor: #ffffff;
   --accent-color: #2196f3;
+  --address-color: rgba(255, 255, 255, 0.6);
 
   --primary-bg-color: #ffffff;
   --second-bg-color: #2f303a;
@@ -144,19 +145,17 @@ h1{
   background-color: var(--second-bg-color);
 }
 
-.footer-contacts {}
-
-.footer-address>li {
-  color: #ffffff;
+.footer, 
+.footer a{
+  color: var(--whitecolor);
 }
+
 
 .footer-address a {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--address-color)
 }
 
-.footer-right-logo {
-  color: #ffffff;
-}
+
 
 /* portfolio styles */
 .portfolio button:hover,
