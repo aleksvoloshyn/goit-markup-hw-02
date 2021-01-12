@@ -11,6 +11,8 @@
   --second-bg-color: #2f303a;
 
   --filter-btn-bg-color: #F5F4FA;
+
+  --normal-font-size: 14px;
 }
 
 /* сброс маркеров списка */
@@ -50,7 +52,7 @@ body {
   color: var(--text-color);
 
   font-family: Roboto, sans-serif;
-  font-size: 14px;
+  font-size: var(--normal-font-size);
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -127,7 +129,6 @@ h1 {
 
 /* our team */
 .our-team-list p {
-
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
