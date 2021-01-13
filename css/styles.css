@@ -76,10 +76,10 @@ h3 {
 }
 
 /* header */
-.page-header a:hover,
-.page-header a:focus,
-.footer a:hover,
-.footer a:focus {
+.list a:hover,
+.list a:focus,
+.footer address a:hover,
+.footer address a:focus {
   color: var(--accent-color);
 }
 
